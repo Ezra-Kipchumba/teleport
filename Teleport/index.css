@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(./assets/teleworld1.jpeg);
+    background-color: transparent;
+}
+.top-h{
+    color: white;
+    overflow: hidden;
+    margin-left: 30px;
+    font-size: xx-large;
+}
+.nav{
+    text-align: center;
+    padding: 36px 18px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+}
