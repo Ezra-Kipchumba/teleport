@@ -34,7 +34,7 @@ a:hover {
 }
 
 .main {
-    height: 41vh;
+    height: 30vh;
 }
 
 #city {
@@ -114,4 +114,13 @@ a:hover {
     font-weight: 700;
     text-align: center;
     margin: 20px;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    margin: 38px;
+    font-size: 28px;
+    font-style: italic;
+    color: white;
+
 }
