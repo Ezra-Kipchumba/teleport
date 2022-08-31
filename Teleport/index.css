@@ -45,6 +45,7 @@ a:hover {
     font-size: xx-large;
     background-color: black;
     font-weight: 700;
+    border-radius: 7px;
 }
 
 #btn {
