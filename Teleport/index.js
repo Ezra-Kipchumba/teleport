@@ -1,10 +1,15 @@
-const randomCity = "https://api.teleport.org/api/urban_areas/teleport%3A9q8yy/scores/";
-const cities = document.getElementById("city").value;
-fetch(randomCity)
+const randomCity = "(https://api.teleport.org/api/";
+const cities = document.getElementById("btn").addEventListener("click",getCity);
+
+
+function getCity(){
+    return document.getElementById("city").value;
+}
+fetch("(https://api.teleport.org/api/")
 .then((res) =>{res.json()})
-.then((completeData) => {
+.then((completeData) => {completeData._embedded["city:search-results"]
     let inputCity= "";
-    let towns = completeData.map((values)=>{
+    let towns = completeData?.map((values)=>{
         inputCity += `${values}`
     });
     
