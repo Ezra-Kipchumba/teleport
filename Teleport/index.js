@@ -4,12 +4,12 @@ fetch(randomCity)
 .then((res) =>{res.json()})
 .then((completeData) => {
     let inputCity= "";
-    completeData.map((values)=>{
+    let towns = completeData.map((values)=>{
         inputCity += `${values}`
     });
     
     if(cities === values){
-        return values;
+        return towns;
     }
 })
 .catch((error) =>{console.log(error)})
